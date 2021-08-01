@@ -1,0 +1,226 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.font1{
+  font-family: 'Alata', sans-serif;
+}
+.font2{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.cabecalho{
+  background-image: url("images/mobile/image-hero.jpg");
+  background-size: cover;
+  color: white;
+  max-width: 100vw;
+}
+.menulogo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+}
+.looplogo{
+  width: 40vw;
+  margin: 1em;
+}
+.menu{
+  width: 1.5em;
+  margin: 1em;
+}
+.cabecalho ul{
+  list-style: none;
+  display: flex;
+}
+.cabecalho ul li{
+  margin-right: 5px;
+}
+.cabecalho h1{
+  margin: 0.7em;
+  font-size: 2.3em;
+  font-weight: 400;
+}
+.wraptext{
+  border: 2px solid white;
+  margin: 2em;
+  margin-top: 10em;
+  margin-bottom: 12em;
+  grid-area: "text";
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section img{
+  margin-top: 6em;
+  max-width: 90vw;
+}
+article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section h1{
+  margin-top: 1.5em;
+  font-size: 2em;
+  font-weight: 300;
+}
+article p{
+  width: 80vw;
+  margin: 1em;
+  margin-bottom: 0;
+  color: hsl(0, 0%, 55%);
+}
+.secText{
+  line-height: 1.7;
+}
+.crea{
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+/*Grid CSS Start*/
+
+.mainGrid{
+  display: grid;
+  grid-template-columns: auto;
+}
+.box{
+  text-align: start;
+  width: 80vw;
+  height: 7em;
+  background-size: cover;
+  margin: 2.5vw;
+  color: white;
+  background-color: black;
+  position: relative;
+}
+.box p{
+  
+  width: 50%;
+  margin-left: 1em;
+  font-size: 1.5em;
+  margin-bottom: 0.8em;
+  
+}
+.grad{
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7119981781775211) 0%, rgba(0,0,0,0) 100%);
+  width: 100%;
+  height: 100%;
+}
+.deep{
+  background-image: url(images/mobile/image-deep-earth.jpg);
+}
+.deep p{
+  width: 40%;
+}
+.night{
+  background-image: url(images/mobile/image-night-arcade.jpg);
+}
+.soccer{
+  background-image: url(images/mobile/image-soccer-team.jpg);
+}
+.tgrid{
+  background-image: url(images/mobile/image-grid.jpg);
+}
+.tgrid p{
+  width: 20%;
+}
+.fuav{
+  background-image: url(images/mobile/image-from-above.jpg);
+}
+.pocket{
+  background-image: url(images/mobile/image-pocket-borealis.jpg);
+}
+.tcuri{
+  background-image: url(images/mobile/image-curiosity.jpg);
+}
+.fish{
+  background-image: url(images/mobile/image-fisheye.jpg);
+}
+
+/*END OF GRID CSS*/
+
+.bttnMobi{
+  width: 10em;
+  height: 3em;
+  border: 1px solid black;
+  background-color: white;
+  margin: 2em;
+  letter-spacing:5px;
+  font-size: 1em;
+}
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin-top: 4em;
+}
+.rodape .logord{
+  margin: 2em;
+  width: 40vw;
+  margin-top: 3.5em;
+}
+.rodape ul{
+  text-align: center;
+  list-style: none;
+  font-weight: 600;
+}
+.rodape ul li{
+  margin: 1em;
+}
+.roda1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.roda2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sn{
+  margin-top: 2em;
+}
+.sn a{
+  margin: 0.4em;
+}
+.rodColor{
+  color: hsl(0, 0%, 55%);
+  margin: 0.5em;
+  font-weight: 600;
+}
+a{
+  color: white;
+  text-underline-offset: 1em;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.sn img{
+  padding-bottom: 1em;
+}
+.sn img:hover{
+  border-bottom: 1px solid white;
+}
+body button:hover{
+  color: white;
+  border-color: white;
+  background-color: black;
+}
+.grad:hover{
+  background: rgba(255, 255, 255, 0.75);
+}
+.box:hover{
+  color: black;
+}
